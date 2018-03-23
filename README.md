@@ -17,8 +17,8 @@ This is the most basic implementation. It can be easily translated into any othe
 >Observer is aware of subject (maintains a reference on subject that will be used to get its state when update operation is called)
 
 Drawbacks : 
-- (1) The notification of state changes is made explicitly by the subject.
-- (2) Strong coupling betweeen Subject and Observer.
+- The notification of state changes is made explicitly by the subject.
+- Strong coupling betweeen Subject and Observer.
 
 ## Example2
 
