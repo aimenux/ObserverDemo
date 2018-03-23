@@ -18,7 +18,7 @@ This is the most basic implementation. It can be easily translated into any othe
 
 Drawbacks : 
 - The notification of state changes is made explicitly by the subject.
-- Strong coupling betweeen Subject and Observer.
+- The strong coupling betweeen the subject and the observers.
 
 ## Example2
 
