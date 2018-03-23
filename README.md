@@ -1,6 +1,6 @@
 # Welcome to ObserverDemo !
 
-> Observer pattern is a software design pattern in which an object, called the *subject*, maintains a list of its dependents, called *observers*, and notifies them automatically of any state changes, usually by calling one of their methods.
+> *Observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.*
 
 Here are 6 different implementations of observer design pattern. Each implementation is illustrated through an example.
 Each example contains 2 projects : a class library and a console application.
