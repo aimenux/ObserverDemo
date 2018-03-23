@@ -17,13 +17,28 @@ This is the most basic implementation. It can be easily translated into any othe
 >Observer is aware of subject (maintains a reference on subject that will be used to get its state when update operation is called)
 
 Drawbacks : 
-- The notification of state changes is made explicitly by the subject.
+- The notification of state changes is made explicitly.
 - The strong coupling betweeen the subject and the observers.
 
 ## Example2
+This is also a basic implementation. It's very similar to example1 but more improved version.
 
+>Subject is aware of observers (maintains a collection of observers and iterate over them when state change in order to call update operation).
+
+>Observer is not aware of subject. subject will be passed as an argument to the update operation.
+
+Advantages :
+- No need to call notification explicitly.
+- Less coupling between subject and the observers.
 
 ## Example3
+This is a .NET specific implementation based on custom delegates and events.
+
 ## Example4
+This is a .NET specific implementation based on generic event handler and custom event args.
+
 ## Example5
+This is a .NET specific implementation based on IObservable and IObserver interfaces.
+
 ## Example6
+This is a .NET specific implementation based on reactive extensions (Rx).
