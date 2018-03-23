@@ -12,9 +12,9 @@ The use case consists of notifing observers of any change in subject state prope
 ## Example1
 This is the most basic implementation. It can be easily translated into any other programming language.
 
->Subject is aware of observers (maintains a collection of observers and iterate over them in order to call update operation)
+>Subject is aware of observers (maintains a collection of observers and iterate over them when state change in order to call update operation)
 
->Observer is aware of subject (maintains a reference on observer that will be used when update method is called)
+>Observer is aware of subject (maintains a reference on subject that will be used to get state when update operation is called)
 
 ## Example2
 ## Example3
