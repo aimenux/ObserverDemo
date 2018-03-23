@@ -8,8 +8,6 @@ namespace ObserverDemo.Lib1
 
         public ConcreteSubject Subject { get; }
 
-        public string ObserverState { get; private set; }
-
         public ConcreteObserver(ConcreteSubject subject, string name)
         {
             Subject = subject;
@@ -18,8 +16,7 @@ namespace ObserverDemo.Lib1
 
         public override void Update()
         {
-            ObserverState = Subject.SubjectState;
-            Console.WriteLine($"Yo '{_name}', state has changed to '{ObserverState}'");
+            Console.WriteLine($"Yo '{_name}', state has changed to '{Subject.SubjectState}'");
         }
     }
 }
